@@ -1,0 +1,14 @@
+entrylist=[]
+while True:
+    a=int(input())
+    if a!=-1:
+        entrylist.append(a)
+    else:
+        break
+evenlist=[]
+for x in entrylist:
+    if x%2==0:
+        evenlist.append(x)
+        print(x)
+
+    
