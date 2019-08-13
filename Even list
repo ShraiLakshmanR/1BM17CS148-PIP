@@ -9,6 +9,7 @@ evenlist=[]
 for x in entrylist:
     if x%2==0:
         evenlist.append(x)
-        print(x)
+for y in evenlist:
+    print(y)
 
     
